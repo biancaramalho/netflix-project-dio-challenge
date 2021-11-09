@@ -14,9 +14,11 @@ a {
     box-sizing: border-box;
 }
 
+/*ELEMENTOS BASE*/
 body {
     background: var(--black);
     font-family: 'Times New Roman', Times, serif;
+    color: #fff;
 }
 
 header .container {
@@ -40,4 +42,25 @@ header nav a {
 
 header nav a:hover {
     color: #fff;
+}
+
+/*FILME PRINCIPAL*/
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/the-witcher.jpeg");
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 40px;
 }
