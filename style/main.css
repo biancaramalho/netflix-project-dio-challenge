@@ -17,7 +17,7 @@ a {
 /*ELEMENTOS BASE*/
 body {
     background: var(--black);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'arial', Times, serif;
     color: #fff;
 }
 
@@ -100,4 +100,8 @@ h3 {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrossel-filmes {
+    margin-top: 5px;
 }
